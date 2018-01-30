@@ -1,0 +1,74 @@
+/* Reset */
+html, body, div, article, header, nav, ul, ol, li, a, form,
+legend, input, label, p, img, textarea,
+h1, h2, h3, h4, h5, h6, header {
+  margin: 0; padding: 0;
+  list-style: none;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+html, body, .container {
+  height: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+a {
+  text-decoration: none;
+}
+
+html, body {
+  background: #fff;
+  font-family: sans-serif;
+}
+
+/* The rest */
+button {
+  padding: 0.75em 1.25em;
+  border: none;
+  border-radius: 20px;
+  background: #dedede;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.worker {
+  min-width: 300px;
+  max-width: 500px;
+  margin: 2em auto;
+  padding: 1em;
+  box-shadow: 1px 1px 3px #cacaca,
+              2px 2px 2px #cacaca,
+              3px 3px 3px #cacaca;
+}
+
+.section {
+  margin-bottom: 1em;
+}
+
+.friendly-name {
+  padding: 0.5em 0 2em 0;
+}
+
+.event-log-time {
+  color: #999;
+  font-weight: 100;
+  font-size: 0.8em;
+  font-style: italic;
+  padding: 0 0.5em 0 0;
+}
+
+.event {
+  padding: 0.25em 0;
+}
+
